@@ -1,0 +1,25 @@
+{
+  "name": "tugas-pengenalan-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build.dev": "tsc -w",
+    "build.prod": "tsc",
+    "start.dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.36",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "source-map-support": "^0.5.19"
+  }
+}
